@@ -21,7 +21,6 @@ const App = () => {
     <div>
       <SavedList list={savedList} />
       {/* Step 2b - Inside your App file add two routes. */}
-
       {/* * one route for `/` that loads the `MovieList` component. */}
       {/* * one route that will take an `id` parameter after`/movies/` (ex: `/movies/2`, `/movies/3` where the id is dynamic). This route should load the `Movie` component.    */}
       {/* // Declarative - eg. I have a Route that, when it is at the url path /About, it will render the component About  */}
