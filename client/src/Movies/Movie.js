@@ -6,7 +6,7 @@ const Movie = (props) => {
  
   useEffect(() => {
     const id = 1;
-    // change ^^^ that line and grab the id from the URL
+    // Step 3c - change ^^^ that line and grab the id from the URL (accept correct ID for movie selected)
     // You will NEED to add a dependency array to this effect hook
 
        axios
